@@ -19,7 +19,7 @@ export default function Footer() {
                             aria-label="Twitter"
                             className="text-[15px] transition-opacity hover:opacity-60"
                         >
-                            <img src={Twitter} alt="" />
+                            <img src={Twitter} alt="twitter icon" />
                         </a>
 
                         <a
@@ -27,7 +27,7 @@ export default function Footer() {
                             aria-label="Instagram"
                             className="text-[15px] transition-opacity hover:opacity-60"
                         >
-                            <img src={Instagram} alt="" />
+                            <img src={Instagram} alt="instagram icon" />
 
                         </a>
 
@@ -36,7 +36,7 @@ export default function Footer() {
                             aria-label="Youtube"
                             className="text-[15px] transition-opacity hover:opacity-60"
                         >
-                            <img src={Youtube} alt="" />
+                            <img src={Youtube} alt="youtube icon" />
 
                         </a>
                     </div>

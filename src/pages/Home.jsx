@@ -7,7 +7,7 @@ import JustForYou from "../components/home/JustForYou";
 import Trending from "../components/home/Trending";
 import AboutUs from "../components/home/AboutUs";
 import FollowUs from "../components/home/FollowUs";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer.jsx";
 
 export default function Home() {
     return (
