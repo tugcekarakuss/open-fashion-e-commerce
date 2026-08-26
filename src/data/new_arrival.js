@@ -1,4 +1,4 @@
-import Product from "./../assets/images/home/products/product.svg"
+import Product from "/images/products/women/dresses/w-dress-001-4.jpg"
 export const products = [
     {
         id: 1,
@@ -55,5 +55,33 @@ export const products = [
         price: 180,
         category: "bag",
         image: Product,
+    },
+]
+
+
+export const justForYouProducts = [
+    {
+        id: 1,
+        name: "Harris Tweed Three Button Jacket",
+        price: 120,
+        image: "/images/products/women/dresses/w-dress-001-1.jpg",
+    },
+    {
+        id: 2,
+        name: "Cashmere Blend Jacket",
+        price: 180,
+        image: "/images/products/women/dresses/w-dress-001-2.png",
+    },
+    {
+        id: 3,
+        name: "Classic Wool Coat",
+        price: 210,
+        image: "/images/products/women/dresses/w-dress-001-3.png",
+    },
+    {
+        id: 4,
+        name: "Oversized Knitwear",
+        price: 95,
+        image: "/images/products/women/dresses/w-dress-001-4.jpg",
     },
 ]

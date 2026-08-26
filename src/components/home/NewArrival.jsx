@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { products } from "../../data/products"
+import { products } from "../../data/new_arrival"
 import ProductCard from "../common/ProductCard"
 import Arrow from "../../assets/icons/ForwardArrow.svg"
 import Divider from "../common/Divider"
@@ -30,7 +30,6 @@ export default function NewArrival() {
                     NEW ARRIVAL
                 </h2>
                 <Divider />
-                <div className="mx-auto mt-3 h-px w-24 bg-line" />
             </div>
 
             {/* Categories */}
@@ -41,10 +40,21 @@ export default function NewArrival() {
                         type="button"
                         onClick={() => setActiveCategory(category.id)}
                         className={`
-                            text-sm transition-colors duration-200
+                            relative pb-2 text-sm transition-colors duration-200
+                            after:absolute
+                            after:left-1/2
+                            after:-bottom-1.25
+                            after:h-1.5
+                            after:w-1.5
+                            after:-translate-x-1/2
+                            after:rotate-45
+                            after:bg-primary
+                            after:transition-opacity
+                            after:duration-200
+
                             ${activeCategory === category.id
-                                ? "text-text-body"
-                                : "text-text-body/40"
+                                ? "text-text-body after:opacity-100"
+                                : "text-text-body/40 after:opacity-0"
                             }
                         `}
                     >

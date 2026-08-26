@@ -4,12 +4,12 @@ import Office from "../../assets/images/home/collection/OfficeStyle.jpg"
 export default function Collection() {
     return (
         <section className="my-12 px-4">
-            <h2 className="mb-8 text-center font-tenor-sans text-2xl uppercase tracking-[0.25em] text-text-body md:text-3xl">
+            <h2 className="mb-8 text-center font-tenor-sans text-2xl uppercase tracking-[0.25em] text-text-body">
                 Collections
             </h2>
 
-            <div className="mx-auto max-w-5xl space-y-12">
-                {/* Urban Edge Collection */}
+            <div className="mx-auto max-w-6xl space-y-12">
+                {/*Collection - 1 */}
                 <div className="group relative overflow-hidden rounded-lg shadow-sm">
                     <img
                         src={Summer}
@@ -37,7 +37,7 @@ export default function Collection() {
                     </div>
                 </div>
 
-                {/*Office Collection*/}
+                {/*Collection - 2 */}
                 <div className="group relative overflow-hidden rounded-lg shadow-sm">
                     <img
                         src={Office}
