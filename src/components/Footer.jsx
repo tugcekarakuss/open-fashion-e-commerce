@@ -1,7 +1,7 @@
 import Twitter from "../assets/icons/Twitter.svg"
 import Instagram from "../assets/icons/Instagram.svg"
-import Youtube from "../assets/icons/Youtube.svg"
-import Divider from "./common/Divider";
+import Youtube from "../assets/icons/YouTube.svg"
+import Divider from "../components/common/Divider";
 
 
 export default function Footer() {

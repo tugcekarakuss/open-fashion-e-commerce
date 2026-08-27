@@ -1,4 +1,3 @@
-import { products } from "../../data/new_arrival"
 export default function ProductCard({ product }) {
     return (
         <a

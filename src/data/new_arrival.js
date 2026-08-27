@@ -62,7 +62,7 @@ export const products = [
 export const justForYouProducts = [
     {
         id: 1,
-        name: "Harris Tweed Three Button Jacket",
+        name: "Three Button Jacket",
         price: 120,
         image: "/images/products/women/dresses/w-dress-001-1.jpg",
     },
