@@ -17,11 +17,5 @@
     --color-recent:#C4C4C4;
     --color-menu:#cdc9b7;
 }
-body{
-    background-color: var(--color-bg);
-}
-@layer home{
-    .heading{
-        @apply text-lg uppercase tracking-[4px] font-play-fair;
-    }
-}
+html{scroll-behavior: smooth;}
+body{background-color: var(--color-bg);}

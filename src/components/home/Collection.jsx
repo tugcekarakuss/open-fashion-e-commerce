@@ -3,7 +3,7 @@ import Office from "../../assets/images/home/collection/OfficeStyle.jpg"
 
 export default function Collection() {
     return (
-        <section className="my-12 px-4">
+        <section className="my-12 px-4" id="collection">
             <h2 className="mb-8 text-center font-tenor-sans text-2xl uppercase tracking-[0.25em] text-text-body">
                 Collections
             </h2>
